@@ -1,3 +1,8 @@
+###git config --global alias.pushfwl "push --force-with-lease"
+###git config --global alias.co checkout
+
+
+
 fpath=(~/.zsh $fpath)
 
 
