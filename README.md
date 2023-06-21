@@ -18,6 +18,7 @@ alias vedit="vim ~/.vimrc"
 
 
 # Dev shortcuts
+alias branch-cleanup="git for-each-ref --format '%(refname:short)' refs/heads | grep -v "master\|main" | xargs git branch -D"
 
 alias gits="git status"
 
