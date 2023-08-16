@@ -1,5 +1,6 @@
 ### git config --global alias.pa "push --force-with-lease"
 ### git config --global alias.co checkout
+git config --global alias.squash-all '!f(){ git reset $(git commit-tree HEAD^{tree} "$@");};f'
 
 
 
